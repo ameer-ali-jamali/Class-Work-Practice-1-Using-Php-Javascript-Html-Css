@@ -33,7 +33,6 @@ echo'<table class="table">';
   $result="SELECT * FROM tab3";
 $data=mysqli_query($conn,$result);
 while($db=mysqli_fetch_assoc($data)){
-
     echo" <tr>";
     echo "<th scope='row'>".$db['ID']."</th>";
     echo"<td>".$db['SNAME']."</td>";
