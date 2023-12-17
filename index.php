@@ -10,6 +10,7 @@
     <h1>PHP CRUD Application</h1>
 
     <?php
+    // Include configuration and helper functions
     require_once 'helper/config.php';
 
     // Handling CRUD operations
@@ -33,6 +34,7 @@
     $records = getRecords();
     displayRecords($records);
 
+    // Include the form for adding/updating records
     include 'helper/form.php';
     ?>
 
